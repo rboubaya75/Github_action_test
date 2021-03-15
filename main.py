@@ -1,6 +1,6 @@
-import Rever from reverse.py
-import IntRever from reverIng.py
-import opposite from oposite.py
+from reverse import Rever 
+from reverIng import IntRever 
+from oposite import opposite 
 
 print(Rever("rachid"))
 print(IntRever(42))
