@@ -3,7 +3,7 @@ on:
  - push
 jobs:
   MyFirstJob:
-   runs-on: ububtu-lastest
+   runs-on: ubuntu-lastest
    steps:
     - name: first_step
       run: echo 'hello word'
