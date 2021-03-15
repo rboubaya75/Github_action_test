@@ -5,6 +5,7 @@ jobs:
   MyFirstJob:
    runs-on: ubuntu-latest
    steps:
+    - uses: actions/checkout@v2
     - name: first_step
       run: echo 'hello word'
 
