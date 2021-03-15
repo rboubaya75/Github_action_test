@@ -1,0 +1,10 @@
+name: worflow to run hello word
+on:
+ - push
+jobs:
+  MyFirstJob:
+   runs-on: ububtu-lastest
+   steps:
+    - name: first_step
+      run: echo 'hello word'
+
